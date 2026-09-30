@@ -2,7 +2,7 @@
 
 [![AgentSkills.io Standard](https://img.shields.io/badge/AgentSkills.io-Standard-00D084?style=flat-square)](https://agentskills.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![CI](https://github.com/le-dawg/rental-listing-syndicator/actions/workflows/ci.yml/badge.svg)](https://github.com/le-dawg/rental-listing-syndicator/actions/workflows/ci.yml)
+[![CI](https://github.com/le-dawg/wg-gesucht-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/le-dawg/wg-gesucht-skill/actions/workflows/ci.yml)
 
 > Durable, 4-sigma grade automated agent skill for extracting, sanitizing, optimizing, and syndicating rental listings from source platforms (Airbnb, unstructured text) to German rental portals like [WG-Gesucht](https://www.wg-gesucht.de).
 
@@ -17,7 +17,7 @@ Compatible with **Cursor**, **Claude Code**, **Antigravity CLI (`agy`)**, **Open
 Install directly into your AI coding assistant:
 
 ```bash
-npx skills add le-dawg/rental-listing-syndicator
+npx skills add le-dawg/wg-gesucht-skill
 ```
 
 ### Manual Install (Git Clone)
@@ -26,13 +26,13 @@ Clone into your global or project skills directory:
 
 ```bash
 # Antigravity CLI
-git clone https://github.com/le-dawg/rental-listing-syndicator.git ~/.gemini/config/skills/rental-listing-syndicator
+git clone https://github.com/le-dawg/wg-gesucht-skill.git ~/.gemini/config/skills/wg-gesucht-skill
 
 # Claude Code
-git clone https://github.com/le-dawg/rental-listing-syndicator.git ~/.claude/skills/rental-listing-syndicator
+git clone https://github.com/le-dawg/wg-gesucht-skill.git ~/.claude/skills/wg-gesucht-skill
 
 # Cursor
-git clone https://github.com/le-dawg/rental-listing-syndicator.git .cursor/skills/rental-listing-syndicator
+git clone https://github.com/le-dawg/wg-gesucht-skill.git .cursor/skills/wg-gesucht-skill
 ```
 
 ---
