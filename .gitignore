@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.DS_Store
+*.tmp
+raw_photos/
+clean_photos/
+temp_*/
+listing_payload.json
